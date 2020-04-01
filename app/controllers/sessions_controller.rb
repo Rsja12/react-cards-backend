@@ -16,5 +16,9 @@ class SessionsController < ApplicationController
             render json: { status: 401 }
         end
     end
+
+    def logged_in
+        
+    end
     
 end
